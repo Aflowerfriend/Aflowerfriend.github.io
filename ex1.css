@@ -1,0 +1,52 @@
+#all{
+background-color:#D8BFD8;
+border:1px solid ##473C8B;
+width:60%;/* 宽度是屏幕宽的90% */
+margin:0 auto;/*水平居中*/
+}
+
+
+#top p {
+font-size:2.5em;
+color:#473C8B;
+}
+
+#menu{
+float:left;/*元素应沿其容器的左侧放置*/
+width:400px;
+height:140px;
+color:white;
+background-image:url("山水.jpg");/*图片背景*/
+font-size:1.4em;/*字体大小*/
+}
+
+#menu a:hover{color:#483D8B}/*鼠标在链接上的颜色*/
+#menu a{
+color:white;
+text-decoration:none;/* 没有下划线*/
+}
+
+#maincol{margin-left: 481px;
+width:400px;
+height:150px;}
+#maincol h2{
+background-color:#8968CD;
+color:white;
+}
+
+#footer{
+clear: both;
+width:100%;
+border-top:1px solid #836FFF;
+text-align:right;
+}
+#footer button{
+ width: 100px;
+ height:45px;
+ background: url("vue1/test2.png") no-repeat;
+}
+#footer a:hover{color:#7EC0EE}
+#footer a{
+color:#FF3E96;
+text-decoration:none;
+}
